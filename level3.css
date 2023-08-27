@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 51, 54);
+    color: #fff;
+    margin: 80px;
+}
+
+header {
+    background-image: url('html3.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    height: 250px;
+    padding: 40px;
+}
+
+#nav {
+    display: flex;
+    background-color: #cecece18 ;
+    margin: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 40px  ;
+}
+
+.nav-link:hover {
+    color:#9dc1f8d0 ;
+}
+
+nav >ul {
+    display: flex;
+    list-style: none;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    opacity: 60%;
+}
+
+#main {
+    display: flex;
+}
+#block {
+    margin-top: 60px ;
+ }
+p{
+    line-height: 20px;
+}
+
+#left-col {
+    width: 25%;
+}
+#left-col > h2 , #left-col  h3 {
+    padding-left: 20px;
+}
+
+#ul-main > li {
+    margin-bottom: 8px;
+}
+
+li > a {
+    color: #fff;
+}
+
+li > a:hover {
+    color: #9dc1f8d0;
+}
+
+
+#right-col {
+    width: 75%;
+}
+
+#twocols {
+    display : flex ;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#sub  { 
+    padding: 0px 5px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border-right: 2px solid rgba(255, 255, 255, 0.726);
+}
+div > button, #submit {
+    padding : 5px;
+    margin-top: 10px ;
+    background-color: #9dc1f8d0;
+}
+div > button:hover , #submit:hover {
+    background-color: black;
+    color: #9dc1f8d0 ;
+}
+hr{
+    opacity: 70%;
+}
+
+#contact {
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.767);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
