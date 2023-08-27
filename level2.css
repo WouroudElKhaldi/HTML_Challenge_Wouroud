@@ -1,0 +1,143 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-top: 1em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+ul.services{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.concept {
+    flex-basis: calc(33.33% - 2em);
+    margin-bottom: 2em;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    width: 12 ;
+}
+
+.concept h2 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.concept img {
+    margin-bottom: 1em;
+    width: 300px;
+    height: 200px;
+}
+
+.concept p {
+    color: #666;
+    padding: 10px;
+}
+
+.concept.services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left : 30px ;
+    margin-right: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+}
+
+.footer  {
+    flex-basis: calc(50% - 2em);
+    padding: 0 2em;
+    columns: 2 ;
+}
+
+.footer h2 {
+    margin-bottom: 1em;
+}
+
+.footer p {
+    margin-bottom: 2em;
+}
+
+
+.footer a {
+    color: #f39c12;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ff0000;
+}
